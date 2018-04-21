@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         browser.loadUrl("http://fobono.com");
         browser.getSettings().setJavaScriptEnabled(true);
         browser.setWebViewClient(new WebViewClient());
+
     }
 }
